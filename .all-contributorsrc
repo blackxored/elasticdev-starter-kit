@@ -1,0 +1,25 @@
+{
+  "projectName": "elasticdev-starter-kit",
+  "projectOwner": "blackxored",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "blackxored",
+      "name": "Adrian Perez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/133308?v=4",
+      "profile": "http://adrianperez.codes",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "design",
+        "review",
+        "ideas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+language: node_js
+node_js:
+  - '4.3.2'
+  - '6.10.0'
+script:
+  - npm run install-dependencies
+  - npm run lint
+  - npm test

@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb",
+  "plugins": [],
+  "settings": {
+    "import/core-modules": [
+      "aws-sdk"
+    ]
+  },
+  "rules": {
+    "func-names": "off",
+    "comma-dangle": 0,
+    "camelcase": "off",
+    "new-cap": "off",
+    "no-multi-assign": "off",
+    "max-len": [
+      "error",
+      100,
+      4,
+      {
+        "ignorePattern": "/.+/",
+        "ignoreUrls": true
+      }
+    ],
+    // doesn't work in node v4 :(
+    "strict": "off",
+    "prefer-rest-params": "off"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "lerna": "2.0.0",
+  "packages": [
+    "core",
+    "platforms/*",
+    "services/*"
+  ],
+  "version": "0.0.0",
+  "command": {
+    "bootstrap": {
+      "nohoist": [
+        "bluebird",
+        "decamelize",
+        "faunadb",
+        "log4js",
+        "serverless-authentication",
+        "serverless-authentication-facebook",
+        "serverless-authentication-google",
+        "serverless-authentication-microsoft"
+      ]
+    }
+  }
+}

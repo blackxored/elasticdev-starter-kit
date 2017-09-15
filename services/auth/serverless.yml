@@ -1,0 +1,60 @@
+frameworkVersion: ">=1.2.0 <2.0.0"
+
+service: esk-auth
+
+provider:
+  name: aws
+  environment: ${file(./env.yml):${opt:stage, self:provider.stage}}
+  runtime: nodejs6.10
+
+package:
+  exclude:
+    - .git/**
+
+functions:
+  signin:
+    handler: handler.signin
+    memorySize: 256
+    timeout: 15
+    events:
+      - http:
+          path: authentication/signin/{provider}
+          method: get
+          integration: lambda-proxy
+  callback:
+    handler: handler.callback
+    memorySize: 256
+    timeout: 15
+    events:
+      - http:
+          path: authentication/callback/{provider}
+          method: get
+          integration: lambda-proxy
+  refresh:
+    handler: handler.refresh
+    memorySize: 256
+    timeout: 15
+    events:
+      - http:
+          path: authentication/refresh/{refresh_token}
+          method: get
+          cors: true
+          integration: lambda
+          request:
+            template:
+              application/json: |
+                {
+                  "refresh_token":"$input.params('refresh_token')",
+                  "id":"$input.params('id')",
+                  "state":"$input.params('state')",
+                  "host":"$input.params().header.get('host')",
+                  "stage":"$context.stage"
+                }
+  authorize:
+    handler: handler.authorize
+  schema:
+    handler: handler.schema
+
+plugins:
+  - deployment-info
+

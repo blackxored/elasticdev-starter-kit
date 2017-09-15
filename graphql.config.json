@@ -1,0 +1,27 @@
+{
+  "schema": {
+    "request": {
+      "url": "http://localhost:3000/graphql",
+      "method": "POST",
+      "postIntrospectionQuery": true,
+      "options": {
+        "headers": {
+          "user-agent": "JS GraphQL"
+        }
+      }
+    }
+  },
+  "endpoints": [
+    {
+      "name": "Dev (http://localhost:3000/graphql)",
+      "url": "http://localhost:3000/graphql",
+      "options": {
+        "headers": {
+          "user-agent": "JS GraphQL",
+          "authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjAyMTQ0NTMyZDE2NjI1ODljMzk4ZWY4MDIxNjkyOWE2YTdkNzgyNDc2NTdiMjg4NTgxOTlkOWFhYjlmMGI5ZDQiLCJmYXVuYWRiIjoiZm5FQ2RpM1NubUFDQXdKMUZtcVhrQUlJVGtHd3V3NDY3aDdndXZvUTY3WEhsNGtteE9JIiwiaWF0IjoxNTA1NDI1MTYwLCJleHAiOjE1MDU0MjUxNzV9.Jon9LBXDECPkKAFZEeeYz-Jjsnr47BNJAvOqFVV7LuU",
+          "x-refresh-token": "f1bd4ca387ebabf9f89856b1a5e449409a04b42ed3b7dc7b19f73daee42c5aad2da238329c232a948dd8c8faa47f8868"
+        }
+      }
+    }
+  ]
+}

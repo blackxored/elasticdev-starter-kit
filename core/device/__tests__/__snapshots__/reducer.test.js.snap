@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`device reducer handles DEVICE_INFO_RESPONSE 1`] = `
+Object {
+  "host": "",
+}
+`;
+
+exports[`device reducer has an initial state 1`] = `
+Object {
+  "host": "",
+}
+`;

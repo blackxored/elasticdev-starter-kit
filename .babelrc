@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "react-native"
+  ],
+  "plugins": [
+    ["inline-import", { "extensions": ["graphql", "graphqls"]}],
+    ["inline-dotenv", { "path": ".env"}]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "flow-react-proptypes"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-inline-environment-variables"
+      ]
+    }
+  }
+}
