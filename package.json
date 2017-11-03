@@ -1,13 +1,13 @@
 {
-  "name": "ESK",
+  "name": "elasticdev-starter-kit",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist --npm-client=yarn",
+    "bootstrap": "lerna bootstrap",
     "start": "DEBUG=esk:* lerna run start --stream",
     "test": "jest",
-    "commit": "git-cz",
+    "commit": "commit",
     "flow": "flow",
     "eslint": "eslint .",
     "precommit": "lint-staged",
@@ -16,7 +16,8 @@
     "docs": "documentation build -f html -o docs core/index.js platforms/*/index.js",
     "deploy": "lerna run --stream deploy",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "lint-staged": {
     "*.js": [
@@ -35,12 +36,23 @@
   },
   "jest": {
     "preset": "react-native",
-    "collectCoverageFrom" : ["**/*.{js,jsx}", "!**/node_modules/**", "!**/vendor/**"]
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
   },
+  "workspaces": [
+    "core",
+    "platforms/*",
+    "services/*"
+  ],
   "devDependencies": {
-    "@commitlint/prompt": "^3.2.0",
+    "@commitlint/cli": "^4.2.2",
     "@commitlint/config-angular": "^3.1.1",
     "@commitlint/config-lerna-scopes": "^3.1.1",
+    "@commitlint/prompt": "^3.2.0",
+    "@commitlint/prompt-cli": "^4.2.2",
     "all-contributors-cli": "^4.4.0",
     "babel-eslint": "^7.2.3",
     "babel-inline-import-loader": "^0.0.5",
@@ -69,7 +81,7 @@
     "flow-bin": "^0.49.1",
     "husky": "^0.14.3",
     "jest": "21.0.1",
-    "lerna": "^2.0.0",
+    "lerna": "^2.5.1",
     "lint-staged": "^4.1.3",
     "prettier": "^1.6.1",
     "react-test-renderer": "16.0.0-alpha.12"

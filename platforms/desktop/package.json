@@ -1,0 +1,11 @@
+{
+  "name": "@esk/desktop",
+  "version": "0.1.0",
+  "description": "ElasticDev Starter Kit - desktop platforms",
+  "repository": "https://github.com/blackxored/elasticdev-starter-kit/tree/master/platforms/mobile",
+  "author": "Adrian Perez <adrian@adrianperez.org> (https://adrianperez.codes)",
+  "license": "MIT",
+  "dependencies": {
+    "@esk/core": "^0.1.0"
+  }
+}
