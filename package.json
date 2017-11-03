@@ -11,7 +11,6 @@
     "flow": "flow",
     "eslint": "eslint .",
     "precommit": "lint-staged",
-    "prepush": "docs",
     "prettier": "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80 \"{core,platforms}/**/*.js\" \"!**/dist/**\"",
     "docs": "documentation build -f html -o docs core/index.js platforms/*/index.js",
     "deploy": "lerna run --stream deploy",
