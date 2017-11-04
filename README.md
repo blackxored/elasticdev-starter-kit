@@ -65,7 +65,7 @@ TODO: List other main libraries, frameworks used including versions.
 ### Prerequisites
 
 * Install [NodeJS](https://nodejs.org)
-* Install Lerna: `npm install -g lerna` or `yarn global add lerna`.
+* Install [Yarn](https://yarnpkg.com/en/docs/install)
 
 ### Setting up Dev
 
@@ -97,7 +97,7 @@ AWS Lambda in production (Lambda handler with `apollo-server-lambda` coming soon
 it's serverless-only so you'll need to deploy that first:
 
 ```shell
-npm install -g serverless
+yarn global add serverless
 cd services/auth
 serverless deploy
 ```
