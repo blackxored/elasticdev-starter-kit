@@ -9,7 +9,6 @@ import { merge } from 'ramda';
 import { Observable } from 'rxjs';
 import DeviceInfo from 'react-native-device-info';
 import { deviceInfoResponse } from '@esk/core/device/reducer';
-import { Action, DeviceState, MobileDeviceState } from '../../../core/types';
 
 const DEVICE_INFO_RESPONSE = 'esk/device/INFO_RESPONSE';
 

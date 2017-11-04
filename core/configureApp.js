@@ -2,12 +2,11 @@
 import { pipe, tap } from 'ramda';
 import { persistStore } from 'redux-persist';
 import config from './config';
-import { epics as appEpics } from './app/actions';
+import { appStarted, epics as appEpics } from './app/reducer';
 import configureStore from './configureStore';
 import configureStorage from './configureStorage';
 import configureReporting from './configureReporting';
 import { configureApollo } from './configureData';
-import { appStarted } from './app/reducer';
 
 type AppOptions = {
   platformReducers?: any,
