@@ -5,9 +5,12 @@ describe('configureDeps', () => {
   const now = 1482363367071;
   Date.now = jest.fn(() => now);
 
-  const deps = configureDeps({}, {
-    somePlatformDependency: true,
-  });
+  const deps = configureDeps(
+    {},
+    {
+      somePlatformDependency: true,
+    },
+  );
 
   it('adds platform-specific dependencies', () => {
     expect(deps).toHaveProperty('somePlatformDependency');

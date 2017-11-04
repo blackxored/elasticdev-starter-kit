@@ -152,7 +152,7 @@ export type AuthTokensChangedAction = {
   payload: {
     authorizationToken: string,
     refreshToken: string,
-  }
+  },
 };
 
 export type LogoutAction = { type: 'esk/auth/LOGOUT' };

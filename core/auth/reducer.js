@@ -71,7 +71,10 @@ const reducer = (
   }
 };
 
-export function loginRequest(provider: AuthProviderName, providerData: mixed = {}): LoginRequestAction {
+export function loginRequest(
+  provider: AuthProviderName,
+  providerData: mixed = {},
+): LoginRequestAction {
   return {
     type: LOGIN_REQUEST,
     payload: {
@@ -85,7 +88,7 @@ type LoginSuccessParams = {
   authorizationToken: string,
   refreshToken: string,
   authProvider: AuthProviderName,
-}
+};
 
 export function loginSuccess({
   authorizationToken,
@@ -117,7 +120,6 @@ export function authTokensChanged(
   };
 }
 
-
 export function loginFailure(err: Error): LoginFailureAction {
   return {
     type: LOGIN_FAILURE,
@@ -132,9 +134,10 @@ export function logout(): LogoutAction {
   };
 }
 
-const logoutEpic = (action$: any) => action$
-  .filter((action: Action) => action.type === LOGOUT)
-  .mapTo(resetNavigation('login'));
+const logoutEpic = (action$: any) =>
+  action$
+    .filter((action: Action) => action.type === LOGOUT)
+    .mapTo(resetNavigation('login'));
 
 export const epics = [logoutEpic];
 

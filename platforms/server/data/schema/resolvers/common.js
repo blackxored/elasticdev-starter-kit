@@ -49,16 +49,18 @@ export const nodeFieldResolver = nodeField.resolve;
 export const prop = (propName: string) =>
   R.curry(obj => R.propOr(null, propName, obj));
 
-export const transform = (
-  propName: string,
-  transformFn: string => any,
-) => (obj: any) => {
+export const transform = (propName: string, transformFn: string => any) => (
+  obj: any,
+) => {
   const value = prop(propName)(obj);
 
   return value ? transformFn(value) : null;
 };
 
-export const connectionFromPromisedArrayWithCount = (promise: Promise<*>, args: ConnectionArguments) =>
+export const connectionFromPromisedArrayWithCount = (
+  promise: Promise<*>,
+  args: ConnectionArguments,
+) =>
   promise.then(data => {
     const count = R.pathOr(data.length, ['meta', 'total'], data);
     const connection = connectionFromArray(data.data ? data.data : data, args);

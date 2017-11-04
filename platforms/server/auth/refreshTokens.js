@@ -45,5 +45,4 @@ export default (async function refreshTokens(
   };
 });
 
-
 // monorepo javascript universal server-side-rendering serverless react react-native graphql apollo-client redux redux-observable glamorous webpack2

@@ -1,5 +1,12 @@
 //@flow
-import type { Action, AppState, AppStartedAction, AppOnlineAction, AppErrorAction, Deps } from '../types';
+import type {
+  Action,
+  AppState,
+  AppStartedAction,
+  AppOnlineAction,
+  AppErrorAction,
+  Deps,
+} from '../types';
 import { assoc, merge } from 'ramda';
 
 const APP_ERROR = 'esk/app/ERROR';

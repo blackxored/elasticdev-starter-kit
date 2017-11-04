@@ -9,9 +9,10 @@ import isReactNative from './device/isReactNative';
 import { configureApollo } from './configureData';
 
 // Like redux-thunk, but with just one argument for dependencies.
-export const injectMiddleware = (deps: Deps) => ({ dispatch, getState }: any) => (
-  next: any,
-) => (action: any) =>
+export const injectMiddleware = (deps: Deps) => ({
+  dispatch,
+  getState,
+}: any) => (next: any) => (action: any) =>
   next(
     typeof action === 'function'
       ? action({ ...deps, dispatch, getState })

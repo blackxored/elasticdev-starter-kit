@@ -10,7 +10,6 @@ describe('injectMiddleware', () => {
       payload: true,
     };
 
-    const middleware = injectMiddleware({ dependency }) /*?*/
-
+    const middleware = injectMiddleware({ dependency }); /*?*/
   });
 });

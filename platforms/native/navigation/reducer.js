@@ -42,6 +42,4 @@ const resetNavigationEpic = (
 
 export const epics = [resetNavigationEpic];
 
-
-
 export default reducer;

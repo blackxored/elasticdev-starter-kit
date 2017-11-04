@@ -11,7 +11,7 @@ import reducer, {
   logout,
 } from '../reducer';
 
-const createMockStoreWithEpic = (epic) => {
+const createMockStoreWithEpic = epic => {
   const epicMiddleware = createEpicMiddleware(epic);
   const mockStore = configureMockStore([epicMiddleware]);
   return mockStore();
@@ -76,4 +76,3 @@ describe('auth epics', () => {
     });
   });
 });
-

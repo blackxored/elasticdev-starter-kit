@@ -5,7 +5,10 @@ import debugLib from 'debug';
 
 const debug = debugLib('esk:graphql-server');
 
-export default function writeTokens(authorizationToken: string, refreshToken: string) {
+export default function writeTokens(
+  authorizationToken: string,
+  refreshToken: string,
+) {
   const graphqlConfig = path.resolve(__dirname + '../../graphql.config.json');
   // $FlowFixMe$
   const file = JSON.parse(fs.readFileSync(graphqlConfig, 'utf-8'));

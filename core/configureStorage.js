@@ -2,7 +2,13 @@
 import { pick } from 'ramda';
 import { createTransform } from 'redux-persist';
 
-const defaultPaths = [['auth'], ['apollo', ['data']], ['device'], ['settings'], ['viewer']];
+const defaultPaths = [
+  ['auth'],
+  ['apollo', ['data']],
+  ['device'],
+  ['settings'],
+  ['viewer'],
+];
 
 const makeTransformsAndWhiteLists = (
   userDefinedPaths: Array<Array<string>>,

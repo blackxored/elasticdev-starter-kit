@@ -4,13 +4,16 @@ import { assoc } from 'ramda';
 
 type Action = ToggleNetworkIndicatorAction;
 
-const TOGGLE_NETWORK_ACTIVITY_INDICATOR = 'esk/ui/TOGGLE_NETWORK_ACTIVITY_INDICATOR';
+const TOGGLE_NETWORK_ACTIVITY_INDICATOR =
+  'esk/ui/TOGGLE_NETWORK_ACTIVITY_INDICATOR';
 
 export const initialState = {
   showNetworkIndicator: false,
 };
 
-export const toggleNetworkActivityIndicator = (shouldShow: boolean): ToggleNetworkIndicatorAction => ({
+export const toggleNetworkActivityIndicator = (
+  shouldShow: boolean,
+): ToggleNetworkIndicatorAction => ({
   type: TOGGLE_NETWORK_ACTIVITY_INDICATOR,
   payload: shouldShow,
 });

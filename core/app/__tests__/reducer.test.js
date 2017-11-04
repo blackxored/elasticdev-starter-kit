@@ -11,7 +11,7 @@ describe('app', () => {
     it('creates APP_ERROR action', () => {
       expect(appError(new Error('foo'))).toMatchSnapshot();
     });
-  })
+  });
 
   describe('reducer', () => {
     it('has an initial state', () => {
@@ -19,11 +19,15 @@ describe('app', () => {
     });
 
     it('maps all actions ending with FAILURE to APP_ERROR', () => {
-      expect(reducer(initialState, appError(new Error('foo')))).toMatchSnapshot();
+      expect(
+        reducer(initialState, appError(new Error('foo'))),
+      ).toMatchSnapshot();
     });
 
     it('handles APP_ERROR', () => {
-      expect(reducer(initialState, appError(new Error('bar')))).toMatchSnapshot();
+      expect(
+        reducer(initialState, appError(new Error('bar'))),
+      ).toMatchSnapshot();
     });
 
     it('handles APP_ONLINE', () => {
@@ -33,5 +37,5 @@ describe('app', () => {
     it('handles APP_STARTED (dispatched after rehydrate)', () => {
       expect(reducer(initialState, { type: 'APP_STARTED' })).toMatchSnapshot();
     });
-  })
+  });
 });
