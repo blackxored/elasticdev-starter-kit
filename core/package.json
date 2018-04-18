@@ -11,23 +11,23 @@
     "redux-testkit": "^1.0.6"
   },
   "dependencies": {
-    "apollo-client": "^1.9.2",
-    "dotenv": "^4.0.0",
+    "apollo-client": "^2.2.8",
+    "dotenv": "^5.0.1",
     "glamorous-primitives": "^2.1.0",
-    "graphql": "^0.10.5",
-    "graphql-anywhere": "^3.1.0",
+    "graphql": "^0.13.2",
+    "graphql-anywhere": "^4.1.8",
     "mori": "^0.3.2",
     "prop-types": "^15.5.10",
-    "ramda": "^0.24.1",
+    "ramda": "^0.25.0",
     "raven-js": "^3.17.0",
-    "react": "16.0.0-alpha.12",
+    "react": "16.3.2",
     "react-redux": "^5.0.6",
-    "react-primitives": "^0.4.3",
-    "redux": "^3.7.2",
+    "react-primitives": "^0.5.0",
+    "redux": "^4.0.0",
     "redux-form": "^7.0.4",
     "redux-logger": "^3.0.6",
-    "redux-observable": "^0.16.0",
-    "redux-persist": "^4.8.0",
+    "redux-observable": "^0.18.0",
+    "redux-persist": "^5.9.1",
     "rxjs": "^5.4.3"
   }
 }
