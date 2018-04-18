@@ -1,6 +1,8 @@
 ![](docs/logo.png)
 # ElasticDev Starter Kit === ESK
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blackxored/elasticdev-starter-kit.svg)](https://greenkeeper.io/)
+
 > *Elastic, Serverless, Universal... oh my! 💫*
 >
 > ESK is a toolkit for **universal**, **serverless**, GraphQL **schema-first**, **immutable**, 
