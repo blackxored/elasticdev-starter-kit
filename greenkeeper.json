@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "core/package.json",
+        "package.json",
+        "platforms/desktop/package.json",
+        "platforms/native/package.json",
+        "platforms/server/package.json",
+        "platforms/web/package.json",
+        "services/auth/package.json"
+      ]
+    }
+  }
+}
