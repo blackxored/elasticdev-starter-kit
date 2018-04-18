@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@esk/core": "^0.1.0",
-    "react": "16.0.0-alpha.12",
-    "react-apollo": "^1.4.15"
+    "react": "16.3.2",
+    "react-apollo": "^2.1.3"
   }
 }
