@@ -20,7 +20,7 @@
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
 
 [![MIT License][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
@@ -207,11 +207,9 @@ Please read the [full text][coc] so that you can understand what actions will an
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
-| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub>Adrian Perez</sub>](http://adrianperez.codes)<br />[💻](https://github.com/blackxored/elasticdev-starter-kit/commits?author=blackxored 'Code') [📖](https://github.com/blackxored/elasticdev-starter-kit/commits?author=blackxored 'Documentation') [🚇](#infra-blackxored 'Infrastructure (Hosting, Build-Tools, etc)') [🎨](#design-blackxored 'Design') [👀](#review-blackxored 'Reviewed Pull Requests') [🤔](#ideas-blackxored 'Ideas, Planning, & Feedback') |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-
+<!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](http://adrianperez.codes)<br />[💻](https://github.com/blackxored/elasticdev-starter-kit/commits?author=blackxored "Code") [📖](https://github.com/blackxored/elasticdev-starter-kit/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [🎨](#design-blackxored "Design") [👀](#review-blackxored "Reviewed Pull Requests") [🤔](#ideas-blackxored "Ideas, Planning, & Feedback") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
