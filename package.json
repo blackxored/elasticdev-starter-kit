@@ -86,7 +86,8 @@
       "!**/vendor/**"
     ],
     "setupFiles": [
-      "<rootDir>/src/utils/glamor"
+      "<rootDir>/src/utils/glamor",
+      "jest-canvas-mock"
     ],
     "snapshotSerializers": [
       "jest-glamor-react"
@@ -135,6 +136,7 @@
     "@storybook/addon-links": "^3.4.2",
     "@storybook/addon-notes": "^3.4.2",
     "@storybook/addon-options": "^3.4.2",
+    "@storybook/addon-storyshots": "^3.4.2",
     "@storybook/addon-storysource": "^3.4.2",
     "@storybook/addons": "^3.4.2",
     "@storybook/react": "^3.4.2",
@@ -165,6 +167,7 @@
     "flow-bin": "^0.71.0",
     "husky": "^0.14.3",
     "jest": "^22.4.3",
+    "jest-canvas-mock": "^1.0.2",
     "jest-glamor-react": "^4.3.0",
     "lint-staged": "^7.0.5",
     "npm-run-all": "^4.1.2",
