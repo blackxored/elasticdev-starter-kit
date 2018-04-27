@@ -24,7 +24,7 @@
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
-![Platforms](https://img.shields.io/badge/platform-web%20%7C%20ssr%20%7C%20ios%20%7C%20android-lightgrey.svg?style=flat-square)
+![Platforms](https://img.shields.io/badge/platform-web%20%7C%20ios%20%7C%20android%20%7Cdesktop-lightgrey.svg?style=flat-square)
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
@@ -78,15 +78,16 @@ are handled for you and ready to be extended to accommodate your application req
 | 👤 Auth & Profile         |  ⏳  |   ⏳     | ⏳   |     ⏳      | Password, phone/SMS, OAuth2 | 📖         |
 | 🔍 Search                 |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
 | 💬 Chat & Online Presence |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 👥 Social                 |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
+| 👯 Social                 |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
 | ⚓ Navigation             |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
 | 💰 Payments               |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
 | ⚡ Realtime               |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
 | 💥 Crash Free             |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
 | 🔌 Offline                |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 🇬🇧 Internationalization |  -   |   -      | -    |     ⏳      | ...                          | 📖         |
-| 💄 Universal Styles       |  -   |   -     | ⏳   |     ⏳      | ...                          | 📖         |
-| 📈 Analytics              |  -   |   -     | ⏳   |     ⏳      | ...                          | 📖         |
+| 🎨 Beautiful design       |  -   |   -     | -    |     ⏳      | ...                          | 📖        |
+| 💄 Universal Styles       |  -   |   -     | ⏳   |     ⏳      | ...                          | 📖        |
+| 🌎 Internationalization   |  -   |   -      | -   |     ⏳      | ...                          | 📖        |
+| 📈 Analytics              |  -   |   -     | ⏳   |     ⏳      | ...                          | 📖        |
 
 ## Built With
 
