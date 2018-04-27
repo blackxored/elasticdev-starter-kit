@@ -1,0 +1,26 @@
+{
+  "dist/esk.umd.js": {
+    "bundled": 2444897,
+    "minified": 870604,
+    "gzipped": 246027
+  },
+  "dist/esk.umd.min.js": {
+    "bundled": 1332081,
+    "minified": 552664,
+    "gzipped": 152019
+  },
+  "dist/esk.esm.js": {
+    "bundled": 1666,
+    "minified": 1145,
+    "gzipped": 450,
+    "treeshaked": {
+      "rollup": 432,
+      "webpack": 1088
+    }
+  },
+  "esk.umd.js": {
+    "bundled": 2444967,
+    "minified": 870604,
+    "gzipped": 246027
+  }
+}

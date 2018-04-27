@@ -1,12 +1,20 @@
 {
-  "name": "elasticdev-starter-kit",
+  "name": "esk",
   "version": "0.0.0-development",
+  "description": "ElasticDev Starter Kit (ESK) is a toolkit for universal, serverless, schema-first, immutable, reactive, functional and progressive applications using React & GraphQL as a platform at its core.",
   "author": {
     "name": "Adrian Perez",
     "email": "adrian@adrianperez.org",
     "url": "https://adrianperez.codes"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackxored/elasticdev-starter-kit.git"
+  },
+  "main": "dist/esk.cjs.js",
+  "module": "dist/esk.esm.js",
+  "browser": "dist/esk.umd.js",
   "files": [
     "dist"
   ],
@@ -32,9 +40,10 @@
   "scripts": {
     "build": "npm-run-all -s build:**",
     "build:bsb": "bsb -make-world",
+    "build:lib": "rollup -c",
     "build:next": "next build",
     "build:docs": "documentation build -f html -o docs src/core/index.js platforms/*/index.js",
-    "build:storybook": "build-storybook",
+    "build:storybook": "build-storybook -o docs/storybook",
     "dev": "npm-run-all -p dev:**",
     "dev:bsb": "bsb -make-world -w",
     "dev:next": "node server.js",
@@ -42,6 +51,7 @@
     "clean": "npm-run-all -p clean:**",
     "clean:next": "rimraf .next",
     "clean:bs": "bsb -clean-world",
+    "clean:lib": "rimraf dist",
     "flow": "flow",
     "eslint": "eslint src",
     "test": "jest",
@@ -132,9 +142,11 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^8.2.3",
     "babel-jest": "^22.4.3",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-flow-react-proptypes": "^24.0.0",
     "babel-plugin-glamorous-displayname": "^2.2.0",
     "bs-platform": "^3.0.0",
+    "change-case": "^3.0.2",
     "commitizen": "^2.9.6",
     "documentation": "^6.3.2",
     "eslint": "^4.19.1",
@@ -160,11 +172,14 @@
     "react-test-renderer": "^16.3.2",
     "reason-react": "^0.4.0",
     "rimraf": "^2.6.2",
-    "travis-deploy-once": "^4.4.1",
-    "semantic-release": "^15.1.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/blackxored/elasticdev-starter-kit.git"
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^4.0.0-beta.4",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-size-snapshot": "^0.4.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "semantic-release": "^15.1.7",
+    "travis-deploy-once": "^4.4.1"
   }
 }

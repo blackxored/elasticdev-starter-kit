@@ -6,3 +6,4 @@ webpack.config.base.js
 src/utils/testUtils.js
 src/utils/glamor.js
 src/**/*.stories.js
+docs
