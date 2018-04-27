@@ -50,7 +50,9 @@
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "lint-staged": {
     "*.js": [
@@ -157,6 +159,12 @@
     "prettier": "^1.12.1",
     "react-test-renderer": "^16.3.2",
     "reason-react": "^0.4.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "travis-deploy-once": "^4.4.1",
+    "semantic-release": "^15.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackxored/elasticdev-starter-kit.git"
   }
 }
