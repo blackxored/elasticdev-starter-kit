@@ -5,24 +5,21 @@ const path = require('path');
 module.exports = function(wallaby) {
   return {
     files: [
-      'core/**/*.js',
-      'platforms/**/*.js',
-      'libs/**/*.js',
+      'src/**/*.js',
       '**/*.json',
       '**/*.snap',
       'package.json',
       '!**/__tests__/*.js',
       '!**/*.test.js',
-      '!platforms/server/dist/*.js',
     ],
-    tests: ['**/__tests__/*.js', '**/*.test.js', '!**/node_modules/**'],
+    tests: ['src/**/__tests__/*.js', 'src/**/*.test.js', '!**/node_modules/**'],
     env: {
       type: 'node',
       runner: 'node',
     },
 
     compilers: {
-      '**/*.js': wallaby.compilers.babel(),
+      'src/**/*.js': wallaby.compilers.babel(),
     },
 
     testFramework: 'jest',

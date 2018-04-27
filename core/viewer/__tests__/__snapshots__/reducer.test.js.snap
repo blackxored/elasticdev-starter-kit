@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`viewer reducer has an initial state 1`] = `null`;
-
-exports[`viewer reducer stores the user if APOLLO_QUERY_RESULT contains it 1`] = `
-Object {
-  "id": "some",
-}
-`;

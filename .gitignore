@@ -74,3 +74,10 @@ services/**/env.yml
 # Coverage
 coverage/
 
+# ReasonML
+.merlin
+lib/
+
+
+# NextJS
+**/.next

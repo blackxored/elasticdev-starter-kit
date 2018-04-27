@@ -1,1 +1,8 @@
-platforms/server/dist/*.js
+*.bs.js
+commitlint.config.js
+next.config.js
+wallaby.config.js
+webpack.config.base.js
+src/utils/testUtils.js
+src/utils/glamor.js
+src/**/*.stories.js

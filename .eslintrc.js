@@ -2,11 +2,12 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:flowtype/recommended',
+    'plugin:prettier/recommended',
     'plugin:react/recommended',
-    'prettier',
+    // 'plugin:fp/recommended',
     'prettier/flowtype',
     'prettier/react',
-    'cleanjs',
+    // 'cleanjs',
   ],
   parser: 'babel-eslint',
   plugins: ['flowtype', 'fp', 'prettier', 'react', 'jest'],
@@ -15,12 +16,12 @@ module.exports = {
   },
   rules: {
     'arrow-parens': 0, // does not work with Flow generic types.
+    'arrow-body-style': 0,
     'fp/no-mutating-assign': 2,
     'global-require': 0, // used by react-native
     'import/first': 0, // we sort by unit/atom
     'import/no-named-as-default': 0, // we export components for testing
     'import/prefer-default-export': 0, // actions can have only one action
-    'jsx-a11y/href-no-hash': 0, // disabled since it's not found for some reason
     'no-confusing-arrow': 0, // this rule is confusing
     'no-duplicate-imports': 0, // handled by eslint-plugin-import
     'no-underscore-dangle': 0,
@@ -44,7 +45,7 @@ module.exports = {
         ],
       },
     ],
-    'require-jsdoc': 'warn',
+    'require-jsdoc': 0,
     'valid-jsdoc': 'error',
   },
 };

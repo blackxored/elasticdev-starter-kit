@@ -1,10 +1,15 @@
 {
   "presets": [
-    "react-native"
+    "@babel/stage-3",
+    "@babel/flow"
   ],
   "plugins": [
-    ["inline-import", { "extensions": ["graphql", "graphqls"]}],
-    ["inline-dotenv", { "path": ".env"}]
+    [
+      "@babel/transform-react-jsx",
+      { "pragma": "Glamor.createElement", "pragmaFrag": "React.Fragment" }
+    ],
+    "glamor/babel-hoist",
+    "glamorous-displayname"
   ],
   "env": {
     "development": {
@@ -12,9 +17,10 @@
         "flow-react-proptypes"
       ]
     },
-    "production": {
-      "plugins": [
-        "transform-inline-environment-variables"
+    "test": {
+      "presets": [
+        "@babel/react",
+        "@babel/preset-env"
       ]
     }
   }
