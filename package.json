@@ -7,6 +7,12 @@
     "url": "https://adrianperez.codes"
   },
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
   "keywords": [
     "universal",
     "reactive",
