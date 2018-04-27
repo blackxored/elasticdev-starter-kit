@@ -34,6 +34,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Table of Contents
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blackxored/elasticdev-starter-kit.svg)](https://greenkeeper.io/)
+
 - [Motivation](#motivation)
 - [Features](#features)
 - [Built With](#built-with)
