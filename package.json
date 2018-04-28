@@ -82,6 +82,7 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
+      "!src/**/*.stories.js",
       "!**/node_modules/**",
       "!**/vendor/**"
     ],
