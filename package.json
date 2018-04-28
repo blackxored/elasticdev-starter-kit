@@ -147,6 +147,7 @@
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-flow-react-proptypes": "^24.0.0",
     "babel-plugin-glamorous-displayname": "^2.2.0",
+    "bs-jest": "^0.3.2",
     "bs-platform": "^3.0.0",
     "change-case": "^3.0.2",
     "commitizen": "^2.9.6",

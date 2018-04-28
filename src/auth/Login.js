@@ -1,4 +1,8 @@
 // @flow
+type Props = {
+  children: React.Node,
+};
+
 const getProps = () => {
   const usernameField = {};
   const passwordField = {};
@@ -13,7 +17,7 @@ const getProps = () => {
   };
 };
 
-const Login = ({ children }) => {
+const Login = ({ children }: Props) => {
   return children(getProps());
 };
 

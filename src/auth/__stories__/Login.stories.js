@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Auth, Button, TextInput, CheckBox } from 'esk';
+import { Auth, Button, TextInput, CheckBox } from '../../index';
 
 storiesOf('Auth / Login', module).add('default', () => (
   <Auth.Login>

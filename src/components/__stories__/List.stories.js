@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { storiesOf } from '@storybook/react';
 // eslint-disable-next-line import/extensions,import/no-unresolved
-import { gql, List, Text } from 'esk';
+import { gql, List, Text } from '../../index';
 
 const friendsQuery = gql`
   query FriendsQuery($cursor: String) {
