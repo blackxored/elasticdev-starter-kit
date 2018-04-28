@@ -1,5 +1,3 @@
-
-
 <div align="center">
   <img src="docs/logo.png" width=200 height=200></img>
   <h1>ElasticDev Starter Kit</h1>
@@ -7,9 +5,9 @@
 
 > _Elastic, Serverless, Universal... oh my! 💫_
 >
-> ESK is a toolkit for **universal**, **serverless**, **schema-first**, **immutable**,
-> **reactive**, **functional** and **progressive** applications using
-> **React & GraphQL as a platform** at its core.
+> ESK is a toolkit for **universal**, **serverless**, **schema-first**,
+> **immutable**, **reactive**, **functional** and **progressive**
+> applications using **React & GraphQL as a platform** at its core.
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
 [![Build Status][build-badge]][build]
@@ -24,14 +22,16 @@
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
-![Platforms](https://img.shields.io/badge/platform-web%20%7C%20ios%20%7C%20android%20%7Cdesktop-lightgrey.svg?style=flat-square)
+![Platforms](https://img.shields.io/badge/platform-web%20%7C%20ios%20%7C%20android%20%7C%20desktop-lightgrey.svg?style=flat-square)
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 # Table of Contents
 
 - [Motivation](#motivation)
@@ -60,34 +60,38 @@
 
 ## Motivation
 
-A starter kit for quickly developing universal applications powered by React, GraphQL, functional,
-serverless, and reactive concepts. Includes web, mobile and desktop platforms, with more to come.
+A starter kit for quickly developing universal applications powered by
+React, GraphQL, functional, serverless, and reactive concepts. Includes
+web, mobile and desktop platforms, with more to come.
 
-ESK reduces boilerplate to the absolute minimum, and thrives to make application development
-simpler by encapsulating common constructs, patterns, models and relationships common to most apps.
+ESK reduces boilerplate to the absolute minimum, and thrives to make
+application development simpler by encapsulating common constructs,
+patterns, models and relationships common to most apps.
 
-This "incidental" architecture that we build just in order to get our business feature
-development going is minimized, letting you focus on the core values of your application.
-Project setup and configuration, authentication, payments, search, social features, among others,
-are handled for you and ready to be extended to accommodate your application requirements.
+This "incidental" architecture that we build just in order to get our
+business feature development going is minimized, letting you focus on
+the core values of your application. Project setup and configuration,
+authentication, payments, search, social features, among others, are
+handled for you and ready to be extended to accommodate your application
+requirements.
 
 ## Features
 
-|                           | Core | Backend | UI  | Platform UI | Details                     | Docs      |
-| ------------------------- | :--: | :-----: | :-: | :---------: | :-------------------------: | :-------: |
-| 👤 Auth & Profile         |  ⏳  |   ⏳     | ⏳   |     ⏳      | Password, phone/SMS, OAuth2 | 📖         |
-| 🔍 Search                 |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 💬 Chat & Online Presence |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 👯 Social                 |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| ⚓ Navigation             |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 💰 Payments               |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| ⚡ Realtime               |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 💥 Crash Free             |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 🔌 Offline                |  ⏳  |   ⏳     | ⏳   |     ⏳      | ...                         | 📖         |
-| 🎨 Beautiful design       |  -   |   -     | -    |     ⏳      | ...                          | 📖        |
-| 💄 Universal Styles       |  -   |   -     | ⏳   |     ⏳      | ...                          | 📖        |
-| 🌎 Internationalization   |  -   |   -      | -   |     ⏳      | ...                          | 📖        |
-| 📈 Analytics              |  -   |   -     | ⏳   |     ⏳      | ...                          | 📖        |
+|                            | Core | Backend | UI | Platform UI |           Details           | Docs |
+|:---------------------------|:----:|:-------:|:--:|:-----------:|:---------------------------:|:----:|
+| 👤 Auth & Profile         |  ⏳   |    ⏳    | ⏳  |      ⏳      | Password, phone/SMS, OAuth2 |  📖  |
+| 🔍 Search                 |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| 💬 Chat & Online Presence |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| 👯 Social                 |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| ⚓ Navigation              |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| 💰 Payments               |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| ⚡ Realtime                |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| 💥 Crash Free             |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| 🔌 Offline                |  ⏳   |    ⏳    | ⏳  |      ⏳      |             ...             |  📖  |
+| 🎨 Beautiful design       |  -   |    -    | -  |      ⏳      |             ...             |  📖  |
+| 💄 Universal Styles       |  -   |    -    | ⏳  |      ⏳      |             ...             |  📖  |
+| 🌎 Internationalization   |  -   |    -    | -  |      ⏳      |             ...             |  📖  |
+| 📈 Analytics              |  -   |    -    | ⏳  |      ⏳      |             ...             |  📖  |
 
 ## Built With
 
@@ -106,21 +110,26 @@ TODO: List other main libraries, frameworks used including versions.
 
 ## Why you shouldn't use this
 
-It's not common for projects to include an anti-pitch, but in the interest of transparency,
-we thought it would help you evaluate whether to use (or contribute to) this project. You're always welcome to help, and we will be removing these points accordingly if we
-feel we've made significant process and there are no longer relevant, we might be
-adding some too.
+It's not common for projects to include an anti-pitch, but in the
+interest of transparency, we thought it would help you evaluate whether
+to use (or contribute to) this project. You're always welcome to help,
+and we will be removing these points accordingly if we feel we've made
+significant process and there are no longer relevant, we might be adding
+some too.
 
-* 🔥 This project is _really_ unstable and on the earliest phases you can think of.
-* 💥 This project is _very_ ambitious, we might not complete everything there's to it ¯\_(ツ)\_/¯.
-* 💦 This project is _very_ opinionated, a plugin architecture is in our roadmap, but
-  for now the technology and pattern choices made will probably have to resonate with you
-  in order to be used effectively.
-* 👀 Tooling across the ecosystem is not there yet, so we have patches all over the place.
+* 🔥 This project is _really_ unstable and on the earliest phases you
+  can think of.
+* 💥 This project is _very_ ambitious, we might not complete everything
+  there's to it ¯\_(ツ)\_/¯.
+* 💦 This project is _very_ opinionated, a plugin architecture is in
+  our roadmap, but for now the technology and pattern choices made will
+  probably have to resonate with you in order to be used effectively.
+* 👀 Tooling across the ecosystem is not there yet, so we have patches
+  all over the place.
 * 👎 If serverless isn't for you or your organization.
 * 🙉 If you're not building universal apps.
-* 😾 If you're looking for something simple. We'll simplify our API and usage when we're
-  closing in on **1.0**.
+* 😾 If you're looking for something simple. We'll simplify our API and
+  usage when we're closing in on **1.0**.
 
 ## Docs
 
@@ -130,9 +139,9 @@ __TODO__
 
 ### Deploying
 
-TODO: give more detailed instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
+TODO: give more detailed instructions on how to build and release a new
+version In case there's some step you have to take that publishes this
+project to a server, this is the right time to state it.
 
 ### Examples
 
@@ -140,7 +149,8 @@ server, this is the right time to state it.
 
 ### API Reference
 
-TODO: Link to deployed GraphQL playground, Documentation.js generated docs, etc.
+TODO: Link to deployed GraphQL playground, Documentation.js generated
+docs, etc.
 
 ## Developing
 
@@ -151,8 +161,8 @@ TODO: Link to deployed GraphQL playground, Documentation.js generated docs, etc.
 
 ### Setting up Dev
 
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
+Here's a brief intro about what a developer must do in order to start
+developing the project further:
 
 ```shell
 git clone https://github.com/blackxored/elasticdev-starter-kit.git
@@ -173,9 +183,11 @@ yarn dev
 ## Versioning
 
 We use [SemVer][semver] for versioning. In addition, it's automatic via
-[semantic-release][semantic-release], and our [commit convention][commit-convention].
+[semantic-release][semantic-release], and our
+[commit convention][commit-convention].
 
-For the versions available, see the [Releases][releases] on this repository.
+For the versions available, see the [Releases][releases] on this
+repository.
 
 ## Tests
 
@@ -185,35 +197,42 @@ yarn test
 
 ## Style guide
 
-We use most of [AirBnB's style guide][airbnb-style] and we check with [ESLint][eslint]
-and automatically format our code with [Prettier][prettier]
+We use most of [AirBnB's style guide][airbnb-style] and we check with
+[ESLint][eslint] and automatically format our code with
+[Prettier][prettier]
 
 ## Licensing
 
-This project is licensed under the MIT License - see the 
-[license] file for details.
+This project is licensed under the MIT License - see the [license] file
+for details.
 
 ## Contributing
 
-If you're interested in contributing to this project in any form, please read
-our [Contribution Guidelines][contributing].
+If you're interested in contributing to this project in any form, please
+read our [Contribution Guidelines][contributing].
 
 ### Code of Conduct
 
-We've adopted a Code of Conduct that we expect project participants to adhere to.
-Please read the [full text][coc] so that you can understand what actions will and will not be tolerated.
+We've adopted a Code of Conduct that we expect project participants to
+adhere to. Please read the [full text][coc] so that you can understand
+what actions will and will not be tolerated.
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Thanks goes to these wonderful people
+([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](http://adrianperez.codes)<br />[💻](https://github.com/blackxored/elasticdev-starter-kit/commits?author=blackxored "Code") [📖](https://github.com/blackxored/elasticdev-starter-kit/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [🎨](#design-blackxored "Design") [👀](#review-blackxored "Reviewed Pull Requests") [🤔](#ideas-blackxored "Ideas, Planning, & Feedback") |
-| :---: |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+This project follows the
+[all-contributors](https://github.com/kentcdodds/all-contributors)
+specification. Contributions of any kind welcome!
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
