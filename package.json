@@ -185,6 +185,6 @@
     "rollup-plugin-size-snapshot": "^0.4.0",
     "rollup-plugin-uglify": "^3.0.0",
     "semantic-release": "^15.1.7",
-    "travis-deploy-once": "^4.4.1"
+    "travis-deploy-once": "^5.0.0"
   }
 }
