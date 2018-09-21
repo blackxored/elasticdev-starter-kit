@@ -9940,9 +9940,9 @@ pngjs@^3.0.0, pngjs@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.3.3.tgz#85173703bde3edac8998757b96e5821d0966a21b"
 
-polished@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-1.9.2.tgz#d705cac66f3a3ed1bd38aad863e2c1e269baf6b6"
+polished@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-2.1.0.tgz#2c34f3c3699cb4de16fb90c5776f84d8bd0a5c10"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
