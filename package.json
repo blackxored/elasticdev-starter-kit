@@ -167,7 +167,7 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-react-native": "^3.2.1",
     "flow-bin": "^0.71.0",
-    "husky": "^0.14.3",
+    "husky": "^1.0.1",
     "jest": "^22.4.3",
     "jest-canvas-mock": "^1.0.2",
     "jest-glamor-react": "^4.3.0",
