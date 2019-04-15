@@ -136,7 +136,7 @@
     "@storybook/addon-info": "^5.0.7",
     "@storybook/addon-links": "^5.0.7",
     "@storybook/addon-notes": "^5.0.7",
-    "@storybook/addon-options": "^3.4.2",
+    "@storybook/addon-options": "^5.0.7",
     "@storybook/addon-storyshots": "^5.0.7",
     "@storybook/addon-storysource": "^3.4.2",
     "@storybook/addons": "^5.0.7",
