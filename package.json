@@ -146,7 +146,7 @@
     "babel-eslint": "^8.2.3",
     "babel-jest": "^23.0.0",
     "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-flow-react-proptypes": "^24.0.0",
+    "babel-plugin-flow-react-proptypes": "^25.1.0",
     "babel-plugin-glamorous-displayname": "^2.2.0",
     "bs-jest": "^0.3.2",
     "bs-platform": "^3.0.0",
