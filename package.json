@@ -138,7 +138,7 @@
     "@storybook/addon-notes": "^5.0.9",
     "@storybook/addon-options": "^5.0.9",
     "@storybook/addon-storyshots": "^5.0.9",
-    "@storybook/addon-storysource": "^3.4.2",
+    "@storybook/addon-storysource": "^5.0.9",
     "@storybook/addons": "^3.4.2",
     "@storybook/react": "^3.4.2",
     "all-contributors-cli": "^4.11.1",
