@@ -1793,6 +1793,90 @@
     react-split-pane "^0.1.77"
     react-treebeard "^2.1.0"
 
+"@styled-system/background@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/background/-/background-5.0.2.tgz#d5e76957a36abeacb6091d6662d3f61c215ea8fe"
+  integrity sha512-r+NDxbOvNeHb+kD0i4icyZekALCcnOiFGeZbEZYss38hLJbwtr50afgJaqva5NoKx/CBtyLr+E2SaZLP7btJtA==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/border@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/border/-/border-5.0.2.tgz#6bfb3c69286b55fc84bf9103caed772633145a9f"
+  integrity sha512-7kXJigDYfHk6yKfupZQ4876e8mefFGchz/HJhKKmnJJVutJ/NT5z/uT/fHnvDTfSfyAz0tGv+u9DcN8/SmRqbQ==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/color@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/color/-/color-5.0.2.tgz#fe39335c9d6aa0cf2c90cb462437ecdc7c7cddbd"
+  integrity sha512-PZHxd6EHRKY8qrjNtfjNdlpvWQvuFNTeBDYP0yI55m2ZaPlDxfXNEKun3K1TuEzvS5o6uRPPxKJRumu1oO3Fyw==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/core@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/core/-/core-5.0.2.tgz#da34879a854ab16654a7eb79c0ac6fa8e1c50378"
+  integrity sha512-XqWevkiSMr+jRRIfj9Ee+g6wxYg9Sgzf4Zh0bU+m4tBNoEd/pnagpNcy5Xr/Zunv0c9hj8LZ5vE1c74ze6X8Vg==
+  dependencies:
+    object-assign "^4.1.1"
+
+"@styled-system/flexbox@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/flexbox/-/flexbox-5.0.2.tgz#bcc84f55a485db3b2f9f2e1068e15c7501c9bad4"
+  integrity sha512-FWKeYdAqmZu/RC6IIGxW9eOKX3vr5pqXKVFabBsD9MRi7v5ff3s3LTBsTcF37Orts5A41wWAHqOzDqNGsgfwrg==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/grid@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/grid/-/grid-5.0.2.tgz#14e100c9039b7a73557170ad68d16e22031ef434"
+  integrity sha512-t3E/v8TTwEggcNgGvqZelUrL8hlSTpcDi8tO+o8ZJ8w9hj3Ty9CPQuvkvKmdK7JUj2el9byYKyXRl1kCFGgCoQ==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/layout@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/layout/-/layout-5.0.2.tgz#7857742ab8fba9fc8dc5e2104b6e2ab918936e6d"
+  integrity sha512-y9kESx+FaVSsgksiFEearZhw/ItkmYI4N27lSi/Q/EefVPR/7DqrV7dHT2mWQVB6c9URmL+A5ZsFXNifkZiB/w==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/position@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/position/-/position-5.0.2.tgz#dbdc784c7cd3136b3c2badf4d6db74fa685e696f"
+  integrity sha512-FSBhX/8v4g9QqJmkvTZ7wpnRUpGHtoQQNvemp26v3shMXM/k/J/Hg+D4Qc6WNEefdL43n/HJH11N8aSOiOQaoA==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/shadow@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/shadow/-/shadow-5.0.2.tgz#eac044044ab2989a52f7f810356ecf5b4f352d71"
+  integrity sha512-50bj8x7Jzkh07faa4jEHEspU4ZeHNvr+UE2DrJVqLa9MHJebvuU3OeyIJc/Aivgj+xFWPoslk28VExzAEVebLA==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/space@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/space/-/space-5.0.2.tgz#386dfb78d7abb20aca780e78c6a436d5acf80e10"
+  integrity sha512-rtrPy1WSWdl/IzcOiY14Y+1YqXN+zre8YKpVBEP67ktlYiDgAOmavMk0NgxYE+0DN4CiHyXPkwo4dLpWD4cOJw==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/typography@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/typography/-/typography-5.0.2.tgz#bc3f656655087cfacbbfd26be481c45a0d5e76d0"
+  integrity sha512-OJrqDEkEI5o2t7d8lhJFnoC7Fp/LCC8eZ76EI4OAzYrnmUComLvaet6pBdZXJAdMD9GY1axWtN3oeczkv/oZrg==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
+"@styled-system/variant@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@styled-system/variant/-/variant-5.0.2.tgz#c93c9a92a2b93d6566dd54e395835fc527a96a8c"
+  integrity sha512-odgKR747/JdVO/aUCFLFhKxzjYnk3oSlSGRTaIsZNGC+JVdZ8gcpo8RLMRzFL7h2cTSS0juL7xU91KKHs/pCUg==
+  dependencies:
+    "@styled-system/core" "^5.0.2"
+
 "@types/async@2.0.47":
   version "2.0.47"
   resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.47.tgz#f49ba1dd1f189486beb6e1d070a850f6ab4bd521"
@@ -12283,11 +12367,24 @@ styled-jsx@2.2.6:
     stylis "3.4.10"
     stylis-rule-sheet "0.0.8"
 
-styled-system@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-2.2.4.tgz#9dbdca131c9ad75364dc8917e1df0eb0b92eb38e"
+styled-system@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-5.0.2.tgz#34fc652bee21855c45d47088a47fd3ffe950e790"
+  integrity sha512-94bxO9yNUDLWJTIkuOV+4vR4aT0Fd1e+wfH26/cxfgZmh7M6699a9kKIBjweVfN7PKYACEe+uyIHKVF2DgNMBQ==
   dependencies:
-    prop-types "^15.6.0"
+    "@styled-system/background" "^5.0.2"
+    "@styled-system/border" "^5.0.2"
+    "@styled-system/color" "^5.0.2"
+    "@styled-system/core" "^5.0.2"
+    "@styled-system/flexbox" "^5.0.2"
+    "@styled-system/grid" "^5.0.2"
+    "@styled-system/layout" "^5.0.2"
+    "@styled-system/position" "^5.0.2"
+    "@styled-system/shadow" "^5.0.2"
+    "@styled-system/space" "^5.0.2"
+    "@styled-system/typography" "^5.0.2"
+    "@styled-system/variant" "^5.0.2"
+    object-assign "^4.1.1"
 
 stylis-rule-sheet@0.0.8:
   version "0.0.8"
