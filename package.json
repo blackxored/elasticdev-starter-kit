@@ -171,7 +171,7 @@
     "jest": "^22.4.3",
     "jest-canvas-mock": "^1.0.2",
     "jest-glamor-react": "^4.3.0",
-    "lint-staged": "^7.0.5",
+    "lint-staged": "^8.2.0",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.12.1",
     "react-test-renderer": "^16.3.2",
