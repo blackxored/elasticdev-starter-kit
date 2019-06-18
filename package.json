@@ -101,7 +101,7 @@
     "parser": "flow"
   },
   "dependencies": {
-    "apollo-client": "^2.2.8",
+    "apollo-client": "^2.6.3",
     "glamor": "^2.20.40",
     "glamorous": "^4.12.4",
     "glamorous-primitives": "^2.1.3",
