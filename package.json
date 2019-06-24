@@ -158,7 +158,7 @@
     "eslint-config-cleanjs": "^4.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-better": "^0.1.5",
-    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-flowtype": "^3.11.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jest": "^21.15.1",
