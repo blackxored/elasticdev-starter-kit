@@ -110,7 +110,7 @@
     "graphql-tools": "^3.0.0",
     "graphql_ppx": "^0.2.1",
     "merge-graphql-schemas": "^1.5.1",
-    "next": "^6.0.0-canary.7",
+    "next": "^9.0.6",
     "polished": "^1.9.2",
     "prop-styles": "^2.0.0",
     "ramda": "^0.25.0",
