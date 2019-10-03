@@ -114,7 +114,7 @@
     "polished": "^1.9.2",
     "prop-styles": "^2.0.0",
     "ramda": "^0.25.0",
-    "react": "^16.3.2",
+    "react": "^16.10.2",
     "react-apollo": "^2.1.3",
     "react-dom": "^16.3.2",
     "react-primitives": "^0.5.0",
