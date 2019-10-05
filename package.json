@@ -156,7 +156,7 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-cleanjs": "^4.0.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-better": "^0.1.5",
     "eslint-plugin-flowtype": "^2.46.3",
     "eslint-plugin-fp": "^2.3.0",
